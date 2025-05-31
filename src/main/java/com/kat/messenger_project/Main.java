@@ -10,6 +10,7 @@ public class Main {
     }
     public static void printNumbers(){
         for (int i = 1; i <= 20; i++ ) {
+            System.out.println("Very important print!");
             System.out.print(i + " ");
         }
     }

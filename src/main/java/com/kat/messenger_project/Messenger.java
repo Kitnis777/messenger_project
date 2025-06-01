@@ -4,16 +4,21 @@ public class Messenger {
     private static final String MESSAGE_ONE = "\nHello! This is Kitnis!";
     private static final String MESSAGE_TWO = "Hi! How are the kittens doing today?";
     private static final String MESSAGE_THREE = "Кто сладкий Кот? ЯЯЯЯ!!!";
-
     private static final String VIP_STRING = "Very important string!!!";
 
-    public void showMessageOne (){
+    public String getVIP_STRING() {
+        return VIP_STRING;
+    }
+
+    public void showMessageOne() {
         System.out.println(MESSAGE_ONE);
     }
-    public void showMessageTwo(){
+
+    public void showMessageTwo() {
         System.out.println(MESSAGE_TWO);
     }
-    public void showMessageThree (){
+
+    public void showMessageThree() {
         System.out.println(MESSAGE_THREE);
     }
 

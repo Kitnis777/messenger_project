@@ -13,8 +13,10 @@ public class Main {
     public static void printNumbers() {
         for (int i = 1; i <= 20; i++) {
             if (i % 2 == 0) {
+                System.out.println("Very important print!");
                 System.out.print(i + " ");
             }
+
         }
     }
 }

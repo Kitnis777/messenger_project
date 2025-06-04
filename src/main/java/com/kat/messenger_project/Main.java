@@ -7,11 +7,15 @@ public class Main {
         Messenger messenger = new Messenger();
         messenger.showMessageOne();
         messenger.showMessageTwo();
+        messenger.showMessageThree();
     }
-    public static void printNumbers(){
-        for (int i = 1; i <= 20; i++ ) {
+
+    public static void printNumbers() {
+        for (int i = 1; i <= 20; i++) {
             System.out.println("Very important print!");
-            System.out.print(i + " ");
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
         }
     }
 }

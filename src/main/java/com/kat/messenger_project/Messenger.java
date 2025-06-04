@@ -4,7 +4,8 @@ public class Messenger {
     private static final String MESSAGE_ONE = "\nHello! This is Kitnis!";
     private static final String MESSAGE_TWO = "Hi! How are the kittens doing today?";
     private static final String MESSAGE_THREE = "Hey you!";
-    private static final String VIP_STRING = "Very important string!!!";
+    private static final String VIP_STRING = "Very very important string!!!";
+    private static final String MESSAGE_FOUR = "New String, baby";
 
     public void showMessageOne() {
         System.out.println(MESSAGE_ONE);
@@ -19,6 +20,6 @@ public class Messenger {
     }
 
     public void printVeryImportantString() {
-        System.out.println(VIP_STRING);
+        System.out.println(VIP_STRING + " baby");
     }
 }

@@ -11,9 +11,10 @@ public class Main {
     }
 
     public static void printNumbers() {
+        System.out.println("Hey You!");
         for (int i = 1; i <= 20; i++) {
             System.out.println("Very important print!");
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 System.out.print(i + " ");
             }
         }

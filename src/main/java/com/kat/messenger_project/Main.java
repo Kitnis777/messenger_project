@@ -8,13 +8,12 @@ public class Main {
         messenger.showMessageOne();
         messenger.showMessageTwo();
         messenger.showMessageThree();
+        messenger.showMessageFour();
     }
 
     public static void printNumbers() {
-        System.out.println("Hey You!");
-        for (int i = 1; i <= 20; i++) {
-            System.out.println("Very important print!");
-            if (i % 2 != 0) {
+        for (int i = 1; i <= 100; i++) {
+            if (i % 10 == 0) {
                 System.out.print(i + " ");
             }
         }
